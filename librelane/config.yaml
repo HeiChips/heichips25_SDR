@@ -1,7 +1,7 @@
 # LibreLane configuration file
 
-DESIGN_NAME: heichips25_template
-VERILOG_FILES: ["dir::../src/heichips25_template.sv", "dir::../src/matrix_accumulator.sv","dir::../src/MAC4x4.sv"
+DESIGN_NAME: heichips25_SDR
+VERILOG_FILES: ["dir::../src/heichips25_SDR.sv", "dir::../src/matrix_accumulator.sv","dir::../src/MAC4x4.sv"
 ,"dir::../src/InputProces.sv", "dir::../src/DP_Matrix_G.sv"]
 CLOCK_PORT: clk
 CLOCK_PERIOD: 10 # 10ns = 100MHz
@@ -30,4 +30,4 @@ PDN_MULTILAYER: false
 RT_MAX_LAYER: TopMetal1
 
 # Enable for better SystemVerilog support
-#USE_SLANG: true
+USE_SLANG: true
